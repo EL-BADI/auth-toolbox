@@ -15,6 +15,7 @@ const LoginButton = ({
   const router = useRouter();
   const clickHandler = () => {
     router.push("auth/login");
+    console.log(asChild);
   };
   if (mode === "modal") {
     return <span>TODO: implement modal</span>;
